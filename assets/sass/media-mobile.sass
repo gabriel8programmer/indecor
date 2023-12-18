@@ -1,0 +1,68 @@
+
+@media (max-width: 425px)
+
+    //header
+    #header 
+        flex-direction: column
+
+        #event-informations,
+        #event-subscription 
+            max-width: 80%
+
+        #event-subscription 
+            margin:1.5rem
+
+    //learn content section
+    #learn-content
+        flex-direction: column
+        .content
+            max-width: 100%
+            margin-bottom: 2rem
+
+    //location section
+    #location-section 
+        flex-direction: column
+
+        #location
+            flex-direction: column
+
+        #location, #details-location
+            max-width: 100%
+
+        #details-location h3 
+            text-align: center
+        #details-location p 
+            display: none
+
+    //enviroment event section
+    #knowing-enviroment-event 
+        max-width: 100%
+
+        .content
+            flex-direction: column
+            gap: 0
+
+            h2
+                font-size: 2.5rem
+                margin-bottom: 3rem
+
+            img 
+                width: 100%
+
+        .content 
+            #img1 
+                display: none
+
+        .detail-description
+            padding: 0
+
+        .content:last-child
+            img 
+                order: 2
+            .detail-description
+                order: 1
+
+    //subscribe section
+    #subscribe-section 
+        button 
+            width: 80%

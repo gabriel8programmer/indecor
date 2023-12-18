@@ -1,0 +1,46 @@
+@use "variables"
+
+#knowing-enviroment-event 
+    width: 80%
+    margin: 2rem auto
+
+    .content 
+        display: flex
+        align-items: flex-start
+        justify-content: space-between
+        color: variables.$text-secondary
+        gap: 5%
+
+        .detail-description 
+            width: 100%
+            padding-left: 2rem
+
+        img 
+            width: 50%
+            margin: 1rem 0
+
+        h2 
+            font-size: 3rem
+            margin: 1rem 0
+
+        h3 
+            font-size: 2rem
+            font-weight: 500
+            margin-bottom: 1.5rem
+
+        ul 
+            list-style-position: inside
+
+            li 
+                margin: .5rem 0
+
+            li:last-child
+                font-weight: bold
+
+    .content:nth-child(2)
+
+        .title-and-list 
+            order: 1
+        
+        img 
+            order: 2

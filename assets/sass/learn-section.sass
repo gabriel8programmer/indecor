@@ -1,0 +1,52 @@
+@use "variables"
+
+#learn-section 
+
+    h2 
+        color: variables.$text-secondary
+        background-color: variables.$secondary
+        padding: 3rem 2rem
+        width: 100%
+        text-align: center
+        font-weight: 500
+        margin-bottom: 2rem
+
+#learn-content
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-bottom: 2rem
+
+    .content 
+        text-align: center
+        color: variables.$text-secondary
+        max-width: 20%
+        display: flex
+        flex-direction: column
+        align-items: center
+
+        .img-content 
+            width: 250px
+            height: 250px
+            border-radius: 50%
+            margin-bottom: 1rem
+
+        #img1 
+           background-image: url(../img/sqr-1.jpg)
+           background-position: center
+           background-size: cover
+
+        #img2 
+            background-image: url(../img/sqr-2.jpg)
+            background-position: center
+            background-size: cover
+
+        #img3 
+            background-image: url(../img/sqr-3.jpg)
+            background-position: center
+            background-size: cover
+
+        p 
+            color: variables.$text-tertiary
+            max-width: 80%
+            

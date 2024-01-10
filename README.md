@@ -12,3 +12,4 @@
 
 <p>Preview:</p>
 
+<img>![tumb-indecor](https://github.com/gabriel8programmer/landing-page-02/assets/94788784/11e584ac-7aed-4c70-8225-a2e68af12da9)</img>
